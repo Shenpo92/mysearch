@@ -5,7 +5,7 @@
 ** Login   <robert.ta@epitech.eu>
 ** 
 ** Started on  Tue Nov 21 07:07:04 2017 Bob
-** Last update Fri Dec  8 09:19:37 2017 Bob
+** Last update Fri Dec  8 09:51:46 2017 Bob
 */
 
 #include "linkedlist.h"
@@ -49,11 +49,11 @@ list	sort_list(list list)
 
   x = list;
   list = NULL;
-  while(x->next != NULL)
+  while(x != NULL)
     {
       e = x;
       x = x-> next;
-      if (list)
+      if (list != NULL)
 	{
 	  if (e->nbr < list->nbr)
 	    {
