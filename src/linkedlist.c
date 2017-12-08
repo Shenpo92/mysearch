@@ -5,7 +5,7 @@
 ** Login   <robert.ta@epitech.eu>
 ** 
 ** Started on  Tue Nov 21 07:07:04 2017 Bob
-** Last update Fri Dec  8 09:12:38 2017 Bob
+** Last update Fri Dec  8 09:19:37 2017 Bob
 */
 
 #include "linkedlist.h"
@@ -34,7 +34,7 @@ void    show_list(list list)
   s_elem *tmp = list;
   int	 i = 0;
   
-  while (tmp->next != NULL)
+  while (tmp != NULL)
     {
       printf("%s\t found %d time(s) in the file \n", tmp->name, tmp->nbr);
       tmp = tmp->next;
