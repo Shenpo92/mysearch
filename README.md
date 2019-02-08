@@ -4,4 +4,4 @@ The is a keyword research program, it takes as parameter a keyword and searches 
 
 How to use it: 
 - Copy the "mysearch" binary into the directory you want to scan.
-- Execute the binary fallowed by the keyword you want to find. 
+- Execute the binary followed by the keyword you want to find. 
